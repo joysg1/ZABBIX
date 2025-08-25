@@ -1,1 +1,16 @@
+++ default credentials 
+root / zabbix
+Admin / zabbix
 
+++ ip addr show ---> conocer la ip del servidor de zabbix
+
+++ zabbix_get -s <ip> -k system.hostname    ---> establece comunicacion entre el server y el host
+
+++ sudo dnf install smartmontools --->  instalar smartmontools
+
+++ Plugins.Smart.Path=C:\Program Files\smartmontools\bin\smartctl.exe  
+
+---> habilitar en el agente smartmontools en el archivo smart.conf
+
+++ sudo dnf update
+++ sudo dnf upgrade  ---> actualizar
