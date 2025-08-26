@@ -14,3 +14,6 @@ Admin / zabbix
 
 ++ sudo dnf update
 ++ sudo dnf upgrade  ---> actualizar
+
+++ sudo systemctl status zabbix-server  ---> verificar el estado del servidor
+
