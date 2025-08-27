@@ -17,3 +17,5 @@ Admin / zabbix
 
 ++ sudo systemctl status zabbix-server  ---> verificar el estado del servidor
 
+++ sudo reboot ---> reiniciar 
+
